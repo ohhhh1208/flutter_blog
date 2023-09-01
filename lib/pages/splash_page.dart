@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../common/my_iamges.dart';
+import '../common/my_images.dart';
 import '../router/app_pages.dart';
 
 class SplashPage extends StatefulWidget {

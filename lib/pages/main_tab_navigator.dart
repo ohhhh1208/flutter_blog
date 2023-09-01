@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
-import 'mine_page.dart';
+import 'mine_tab/mine_page.dart';
+import 'home_tab/home_page.dart';
 
 class MainTabNavigator extends StatefulWidget {
   const MainTabNavigator({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class _MainTabNavigatorState extends State<MainTabNavigator> {
   var titles = ["首页", "我的"];
   List<Widget> pages = <Widget>[const HomePage(), const MinePage()];
 
-  var _pageController = PageController();
+  final _pageController = PageController();
   int _selectedIndex = 0;
   DateTime? _lastPressed;
 

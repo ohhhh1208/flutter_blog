@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../pages/main_tab/main_tab_navigator.dart';
+import '../pages/main_tab_navigator.dart';
 import '../pages/splash_page.dart';
 import '../widget/page_route_anim.dart';
 
