@@ -21,6 +21,17 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+#  依赖库
+  provider: 6.0.5
+  dio: ^5.3.2
+  dio_cookie_manager: ^3.1.0+1
+  connectivity_plus: ^4.0.2
+  device_info_plus: ^9.0.3
+  package_info_plus: ^4.1.0
+
 
 
   flutter_lints: ^2.0.0
@@ -31,6 +42,12 @@ flutter:
 
 
   uses-material-design: true
+
+
+
+  assets:
+    - assets/images/
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -62,3 +79,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
