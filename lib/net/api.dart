@@ -4,7 +4,7 @@
 class Api {
   ///前缀地址
   static const String BASE_URL = 'https://www.wanandroid.com/';
-  static const String TEST_URL = "'https://www.wanandroid.com/';";
+  static const String TEST_URL = 'https://www.wanandroid.com/';
 
   ///code定义
   static const int SUCCESS = 200;

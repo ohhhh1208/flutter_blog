@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+     // backgroundColor: Colors.white12,
       body: SafeArea(
           top: true,
           child: Column(
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       tabs: [
                         Tab(text: S.of(context).tabHome),
                         Tab(text: S.of(context).recommend),
-                        Tab(text: S.of(context).tabHome),
+                        Tab(text: S.of(context).questions),
                       ],
                     ),
                   ),

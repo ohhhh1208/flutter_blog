@@ -4,6 +4,7 @@ import 'package:flutter_blog/router/app_pages.dart';
 import 'package:flutter_blog/utils/provider_manager.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'common/screen_util.dart';
 import 'generated/l10n.dart';
 
 void main() async {
@@ -20,28 +21,31 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
+    ScreenUtil.screenSize = screenSize;
+
     //UI有多个State需要监听时,需要用到MultiProvider
     return
         // MultiProvider(
         // providers: providers,
         // child:
 
-      MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Intent',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        onGenerateRoute: AppPages.generateRoute,
-        initialRoute: AppRoutes.splash,
-        localizationsDelegates: const [
-          S.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: S.delegate.supportedLocales,
+        MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Intent',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      onGenerateRoute: AppPages.generateRoute,
+      initialRoute: AppRoutes.splash,
+      localizationsDelegates: const [
+        S.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: S.delegate.supportedLocales,
       //  home: const MyHomePage(title: 'Flutter Demo Home Page'),
       // ),
     );

@@ -1,14 +1,14 @@
 class BaseResult {
-  int code;
-  String msg;
+  int errorCode;
+  String errorMsg;
   dynamic data;
 
-  BaseResult({required this.code, required this.msg, this.data});
+  BaseResult({required this.errorCode, required this.errorMsg, this.data});
 
   factory BaseResult.fromJson(json) {
     return BaseResult(
-      code: json["code"],
-      msg: json["msg"],
+      errorCode: json["errorCode"],
+      errorMsg: json["errorMsg"],
       data: json["data"],
     );
   }
