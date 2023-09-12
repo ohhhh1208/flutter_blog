@@ -3,6 +3,7 @@
 class MyImages {
   ///========================jpg/png=========================
   static const String img_splash = "assets/images/img_splash.png";
+  static const String img_login_bg = "assets/images/img_login_bg.png";
 
   ///========================svg=========================
   static const String ic_search = "assets/svg/ic_search.svg";

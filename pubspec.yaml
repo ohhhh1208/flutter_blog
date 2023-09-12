@@ -35,6 +35,10 @@ dev_dependencies:
   cached_network_image: ^3.2.3
   pull_to_refresh: ^2.0.0
   fluttertoast: ^8.2.2
+  shared_preferences: ^2.2.0
+
+  # 本地json对象存储
+  localstorage: ^4.0.0+4
 
 
 

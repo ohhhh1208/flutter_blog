@@ -80,6 +80,10 @@ class MyStyles {
   static const TextStyle style_24CF5F_14 =
   TextStyle(color: MyColors.color_24CF5F, fontSize: 14);
 
+  ///---------------------------蓝色字体区域-------------------------------
+  static const TextStyle color_47C5FF_12 =
+  TextStyle(color: MyColors.color_1787BD, fontSize: 12);
+
 
   ///---------------------------黄色、淡黄色字体区域-------------------------------
   static const TextStyle style_FE8C28_24_bold = TextStyle(
@@ -114,8 +118,9 @@ class Box {
   static Widget vBox5 = const SizedBox(height: 5);
   static Widget vBox10 = const SizedBox(height: 10);
   static Widget vBox12 = const SizedBox(height: 12);
-  static Widget vBox15 = const SizedBox(height: 15);
+  static Widget vBox16 = const SizedBox(height: 16);
   static Widget vBox20 = const SizedBox(height: 20);
+  static Widget vBox24 = const SizedBox(height: 24);
   static Widget vBox30 = const SizedBox(height: 30);
   static Widget vBox50 = const SizedBox(height: 50);
 

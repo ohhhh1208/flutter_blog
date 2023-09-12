@@ -2,7 +2,9 @@
   "tabHome": "首页",
   "recommend": "推荐",
   "questions": "问答",
-
+  "loginNameHint": "用户名/邮箱/手机号",
+  "signUp": "注册",
+  "viewStateButtonLogin": "登录",
 
   "actionConfirm": "确认",
   "actionCancel": "取消",
@@ -12,11 +14,10 @@
   "viewStateMessageUnAuth": "未登录",
   "viewStateButtonRefresh": "刷新一下",
   "viewStateButtonRetry": "重试",
-  "viewStateButtonLogin": "登录",
+
   "refreshTwoLevel": "欢迎光临,我的空中楼阁",
   "retry": "重试",
   "splashSkip": "跳过",
-  "tabHome": "首页",
   "tabProject": "项目",
   "tabStructure": "体系",
   "tabUser": "我的",
@@ -36,7 +37,7 @@
   "fieldNotNull": "不能为空",
   "userName": "用户名",
   "password": "密码",
-  "signUp": "注册",
+
   "toSignUp": "去注册",
   "rePassword": "确认密码",
   "twoPwdDifferent": "两次密码不一致",

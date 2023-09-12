@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+import '../pages/login/login_page.dart';
 import '../pages/main_tab_navigator.dart';
 import '../pages/splash_page.dart';
 import '../widget/page_route_anim.dart';
@@ -17,6 +18,8 @@ class AppPages {
         return NoAnimRouteBuilder(SplashPage());
       case AppRoutes.mainTab:
         return NoAnimRouteBuilder(MainTabNavigator());
+      case AppRoutes.loginPage:
+        return NoAnimRouteBuilder(LoginPage());
       default:
         return CupertinoPageRoute(
             builder: (_) => Scaffold(

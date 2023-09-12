@@ -80,6 +80,36 @@ class S {
     );
   }
 
+  /// `userName/email/phoneNumber`
+  String get loginNameHint {
+    return Intl.message(
+      'userName/email/phoneNumber',
+      name: 'loginNameHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get signUp {
+    return Intl.message(
+      'Sign Up',
+      name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In`
+  String get viewStateButtonLogin {
+    return Intl.message(
+      'Sign In',
+      name: 'viewStateButtonLogin',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Confirm`
   String get actionConfirm {
     return Intl.message(
@@ -155,16 +185,6 @@ class S {
     return Intl.message(
       'Retry',
       name: 'viewStateButtonRetry',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Sign In`
-  String get viewStateButtonLogin {
-    return Intl.message(
-      'Sign In',
-      name: 'viewStateButtonLogin',
       desc: '',
       args: [],
     );
@@ -395,16 +415,6 @@ class S {
     return Intl.message(
       'Sign Up',
       name: 'toSignUp',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Sign Up`
-  String get signUp {
-    return Intl.message(
-      'Sign Up',
-      name: 'signUp',
       desc: '',
       args: [],
     );

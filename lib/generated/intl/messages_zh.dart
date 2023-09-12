@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "githubIssue":
             MessageLookupByLibrary.simpleMessage("未找到邮件客户端,请前往github,提issue"),
         "loadFailed": MessageLookupByLibrary.simpleMessage("加载失败,请稍后重试"),
+        "loginNameHint": MessageLookupByLibrary.simpleMessage("用户名/邮箱/手机号"),
         "logout": MessageLookupByLibrary.simpleMessage("退出登录"),
         "myFavourites": MessageLookupByLibrary.simpleMessage("我的收藏"),
         "needLogin": MessageLookupByLibrary.simpleMessage("请先登录"),

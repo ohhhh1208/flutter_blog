@@ -2,6 +2,9 @@
   "tabHome": "Home",
   "recommend": "recommend",
   "questions": "questions",
+  "loginNameHint": "userName/email/phoneNumber",
+  "signUp": "Sign Up",
+  "viewStateButtonLogin": "Sign In",
 
   "actionConfirm": "Confirm",
   "actionCancel": "Cancel",
@@ -11,11 +14,10 @@
   "viewStateMessageUnAuth": "Not sign in yet",
   "viewStateButtonRefresh": "Refresh",
   "viewStateButtonRetry": "Retry",
-  "viewStateButtonLogin": "Sign In",
+
   "refreshTwoLevel": "release to enter second floor",
   "retry": "Retry",
   "splashSkip": "Skip",
-  "tabHome": "Home",
   "tabProject": "Project",
   "tabStructure": "Structure",
   "tabUser": "Me",
@@ -36,7 +38,7 @@
   "userName": "Username",
   "password": "Password",
   "toSignUp": "Sign Up",
-  "signUp": "Sign Up",
+
   "rePassword": "Confirm Password",
   "twoPwdDifferent": "The two passwords differ",
   "toSignIn": "Sign In",

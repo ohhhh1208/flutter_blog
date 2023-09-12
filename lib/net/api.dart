@@ -57,7 +57,7 @@ class Api {
   ///问答列表
   static const String apiAsk = 'wenda/list/page/json';
 
-  ///广场列表
+  ///推荐列表
   static const String apiSquare = 'user_article/list/page/json';
 
   ///首页banner轮播图

@@ -31,18 +31,18 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: AnimatedOpacity(
-          onEnd: () {
-            Navigator.of(context).pushReplacementNamed(AppRoutes.mainTab);
-          },
-        opacity: opacityLevel,
-        duration: const Duration(milliseconds: 2000),
-          child: Container(
-            margin: const EdgeInsets.only(top: 120),
-            alignment: Alignment.center,
-            child: Column(
-              children: [
+        backgroundColor: Colors.white,
+        body: AnimatedOpacity(
+            onEnd: () {
+              Navigator.of(context).pushReplacementNamed(AppRoutes.loginPage);
+            },
+            opacity: opacityLevel,
+            duration: const Duration(milliseconds: 2000),
+            child: Container(
+              margin: const EdgeInsets.only(top: 120),
+              alignment: Alignment.center,
+              child: Column(
+                children: [
                   // Image.asset(
                   //   MyImages.img_splash,
                   //   fit: BoxFit.fitWidth,
@@ -50,14 +50,13 @@ class _SplashPageState extends State<SplashPage> {
                   //   height: 110,
                   // ),
                   Container(
-                  margin: const EdgeInsets.only(top: 16),
-                  child:  Text(
-                    "Welcome to the Intent",
+                    margin: const EdgeInsets.only(top: 16),
+                    child: Text(
+                      "Welcome to the Intent",
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ))
-    );
+                ],
+              ),
+            )));
   }
 }

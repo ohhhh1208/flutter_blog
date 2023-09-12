@@ -65,6 +65,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Can\'t find mail app,please github issues"),
         "loadFailed":
             MessageLookupByLibrary.simpleMessage("Load failed,retry later"),
+        "loginNameHint":
+            MessageLookupByLibrary.simpleMessage("userName/email/phoneNumber"),
         "logout": MessageLookupByLibrary.simpleMessage("Sign Out"),
         "myFavourites": MessageLookupByLibrary.simpleMessage("My favourites"),
         "needLogin": MessageLookupByLibrary.simpleMessage("Go to Sign In"),
